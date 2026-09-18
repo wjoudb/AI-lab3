@@ -1,0 +1,65 @@
+16 ?- father(mansour, baher).
+true.
+
+17 ?- father(mansour, alaa).
+true.
+
+18 ?- father(mansour, roqayah).
+true.
+
+19 ?- father(mansour, iman).
+false.
+
+20 ?- father(baher, wjoud).
+true.
+
+21 ?- father(baher, alhour).
+true.
+
+22 ?- father(alaa, ali).
+true.
+
+23 ?- father(alaa, tariq).
+true.
+
+24 ?- mother(radiyah, baher).
+true.
+
+25 ?- mother(radiyah, batlah).
+false.
+
+26 ?- mother(radiyah, alaa).
+true.
+
+27 ?- mother(radiyah, roqayah).
+true.
+
+28 ?- mother(roqayah, fatimah).
+true.
+
+29 ?- mother(roqayah, mohammed).
+true.
+
+30 ?- mother(batlah, wjoud).
+true.
+
+31 ?- mother(batlah, alhour).
+true.
+
+32 ?- mother(iman).
+ERROR: Unknown procedure: user:mother/1
+ERROR:     However, there are definitions for:
+ERROR:         mother/2
+false.
+
+33 ?- mother(iman, ali).
+true.
+
+34 ?- mother(iman, tariq).
+true.
+
+35 ?- father(ahmed, fatimah).
+true.
+
+36 ?- father(ahmed, mohammed).
+true.
